@@ -31,7 +31,7 @@ ICONS = {
 
 if "player" not in st.session_state:
     st.session_state.player = {
-        "age": 0
+        "age": 0,
         "name": "Founder",
         "stats": {
             "fitness": 50,
