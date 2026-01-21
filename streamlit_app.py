@@ -162,7 +162,6 @@ if st.session_state.event is None:
         st.session_state.event = generate_event()
         st.session_state.result = None
         p["age"] += 1
-        st.experimental_rerun()
 
 else:
     event = st.session_state.event
